@@ -1,1 +1,8 @@
 app:
+  kafka:
+    bootstrap-servers: 'localhost:9093'
+    group-id: 'some-group'
+
+logging:
+  level:
+    root: INFO
